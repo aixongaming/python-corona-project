@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %}
+{% block content %}
+  {% if user.is_authenticated %}
+    <article class="media content-section">
+      <div class="media-body">
+        <h1>Merci Louis</h1>
+        <p>tu gères</p>
+      </div>
+    </article>
+  {% else %}
+    <article class="media content-section">
+      <div class="media-body">
+        <h1>Merci Louis</h1>
+        <p>tu gères</p>
+      </div>
+    </article>
+  {% endif %}
+{% endblock content %}

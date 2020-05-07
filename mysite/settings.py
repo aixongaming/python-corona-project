@@ -26,7 +26,7 @@ SECRET_KEY = '--ejy1p%r)23wgc@sv(w6+-9zndn^r#-)x&e-^5*%l#z$oa=+k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['save-corona.herokuapp.com']
 
 
 # Application definition

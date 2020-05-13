@@ -11,7 +11,7 @@ def register(request):
 			username = form.cleaned_data.get('username')
 			first_name = form.cleaned_data.get('first_name')
 			last_name = form.cleaned_data.get('last_name')
-			adress = form.cleaned_data.get('adress')
+			address = form.cleaned_data.get('address')
 			messages.success(request, 'Your account has been created! You are now able to log in')
 			return redirect('login')
 	else:
